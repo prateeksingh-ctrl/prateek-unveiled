@@ -25,7 +25,7 @@ const IntroAnimation = ({ onComplete }: IntroAnimationProps) => {
     <AnimatePresence>
       {phase !== "exit" || true ? (
         <motion.div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-foreground"
+          className="fixed inset-0 z-50 flex items-center justify-center bg-background"
           initial={{ opacity: 1 }}
           animate={{ opacity: phase === "exit" ? 0 : 1 }}
           exit={{ opacity: 0 }}
@@ -36,7 +36,7 @@ const IntroAnimation = ({ onComplete }: IntroAnimationProps) => {
               {/* First Name */}
               <div className="overflow-hidden">
                 <motion.h1
-                  className="text-display text-6xl sm:text-8xl md:text-9xl lg:text-[12rem] text-background tracking-tighter"
+                  className="text-display text-6xl sm:text-8xl md:text-9xl lg:text-[12rem] text-foreground tracking-tighter"
                   initial={{ y: "100%" }}
                   animate={{ y: 0 }}
                   transition={{
@@ -66,7 +66,7 @@ const IntroAnimation = ({ onComplete }: IntroAnimationProps) => {
               {/* Last Name */}
               <div className="overflow-hidden">
                 <motion.h1
-                  className="text-display text-6xl sm:text-8xl md:text-9xl lg:text-[12rem] text-background tracking-tighter"
+                  className="text-display text-6xl sm:text-8xl md:text-9xl lg:text-[12rem] text-foreground tracking-tighter"
                   initial={{ y: "100%" }}
                   animate={{ y: 0 }}
                   transition={{
@@ -109,7 +109,7 @@ const IntroAnimation = ({ onComplete }: IntroAnimationProps) => {
 
             {/* Decorative line */}
             <motion.div
-              className="absolute bottom-0 left-1/2 -translate-x-1/2 h-px bg-background/30"
+              className="absolute bottom-0 left-1/2 -translate-x-1/2 h-px bg-foreground/30"
               initial={{ width: 0 }}
               animate={{ width: "100%" }}
               transition={{
