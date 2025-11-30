@@ -10,7 +10,7 @@ const Footer = () => {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.6 }}
         >
-          © 2024 Prateek Singh. All rights reserved.
+          © 2025 Prateek Singh. All rights reserved.
         </motion.p>
 
         <motion.p

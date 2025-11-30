@@ -61,7 +61,7 @@ const HeroSection = () => {
         >
           <div className="relative w-64 h-80 md:w-72 md:h-96 overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=500&fit=crop&crop=face"
+              src="https://res.cloudinary.com/duv8bi3tc/image/upload/v1764497588/DSC02884_ercmpx.jpg"
               alt="Prateek Singh"
               className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
             />
@@ -79,9 +79,10 @@ const HeroSection = () => {
           <p className="text-xs tracking-[0.3em] uppercase text-muted-foreground mb-2">
             Available for work
           </p>
-          <p className="text-display text-6xl md:text-8xl text-foreground">
-            JUN'25
+            <p className="text-xs tracking-[0.3em] uppercase text-muted-foreground mb-2">
+            SEP'25
           </p>
+         
         </motion.div>
       </div>
     </section>

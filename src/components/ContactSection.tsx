@@ -7,10 +7,9 @@ const ContactSection = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   const socialLinks = [
-    { name: "LinkedIn", href: "#" },
-    { name: "GitHub", href: "#" },
-    { name: "Instagram", href: "#" },
-    { name: "Behance", href: "#" },
+    { name: "LinkedIn", href: "https://www.linkedin.com/in/prateek-singh-4425b8311/" },
+    { name: "GitHub", href: "https://github.com/prateeksingh-ctrl" },
+    { name: "Instagram", href: "https://www.instagram.com/prateek_singh.18/" }, 
   ];
 
   return (
@@ -44,7 +43,7 @@ const ContactSection = () => {
           </p>
 
           <motion.a
-            href="mailto:prateek@example.com"
+            href="mailto:prateeksingh2543@gmail.com"
             className="magnetic-btn inline-flex items-center gap-3 px-10 py-5 bg-foreground text-background rounded-full text-lg font-medium"
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
@@ -66,19 +65,19 @@ const ContactSection = () => {
             <div className="flex items-center gap-4">
               <Mail className="w-5 h-5 text-muted-foreground" />
               <a
-                href="mailto:prateek@example.com"
+                href="mailto:prateeksingh2543@gmail.com"
                 className="link-hover text-foreground hover:text-muted-foreground transition-colors"
               >
-                prateek@example.com
+                prateeksingh2543@gmail.com
               </a>
             </div>
             <div className="flex items-center gap-4">
               <Phone className="w-5 h-5 text-muted-foreground" />
               <a
-                href="tel:+919876543210"
+                href="tel:+91 8874946299"
                 className="link-hover text-foreground hover:text-muted-foreground transition-colors"
               >
-                +91 98765 43210
+                +91 8874946299
               </a>
             </div>
             <div className="flex items-center gap-4">

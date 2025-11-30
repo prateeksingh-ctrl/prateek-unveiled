@@ -3,25 +3,18 @@ import { useRef } from "react";
 
 const skills = [
   "React",
-  "TypeScript",
   "JavaScript",
   "Tailwind CSS",
-  "Node.js",
   "HTML5",
   "CSS3",
   "Git",
-  "Figma",
   "Adobe Lightroom",
-  "Photoshop",
-  "Illustrator",
   "Photography",
   "Video Editing",
   "Brand Strategy",
   "Marketing",
   "Content Creation",
   "Social Media",
-  "UI/UX Design",
-  "Responsive Design",
 ];
 
 const SkillsSection = () => {

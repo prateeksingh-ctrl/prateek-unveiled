@@ -17,7 +17,7 @@ const AboutSection = () => {
         >
           <div className="aspect-[3/4] overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=500&h=700&fit=crop&crop=face"
+              src="https://res.cloudinary.com/duv8bi3tc/image/upload/v1764497825/WhatsApp_Image_2025-06-29_at_16.03.39_xqg65a.jpg"
               alt="Prateek Singh"
               className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
             />
@@ -92,7 +92,7 @@ const AboutSection = () => {
               <p className="text-muted-foreground text-sm mt-2">Years Experience</p>
             </div>
             <div>
-              <p className="text-display text-4xl md:text-5xl text-foreground">20+</p>
+              <p className="text-display text-4xl md:text-5xl text-foreground">5+</p>
               <p className="text-muted-foreground text-sm mt-2">Projects Done</p>
             </div>
             <div>

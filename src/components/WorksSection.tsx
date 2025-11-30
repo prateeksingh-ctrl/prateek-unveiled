@@ -5,27 +5,27 @@ import { ArrowUpRight } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "Brand Campaign",
+    title: "SponsorConnect",
     category: "Marketing & Design",
-    image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&h=400&fit=crop",
+    image: "https://res.cloudinary.com/duv8bi3tc/image/upload/v1764498512/merakist-jyoSxjUE22g-unsplash_bxsvb3.jpg",
   },
   {
     id: 2,
-    title: "E-Commerce Platform",
+    title: "Trello-Clone",
     category: "Web Development",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
+    image: "https://res.cloudinary.com/duv8bi3tc/image/upload/v1764499007/Gemini_Generated_Image_vf57s3vf57s3vf57_yapj2t.png",
   },
   {
     id: 3,
     title: "Portrait Series",
     category: "Photography",
-    image: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=600&h=400&fit=crop",
+    image: "https://res.cloudinary.com/duv8bi3tc/image/upload/v1764499174/edits-18_uqdq1z.jpg",
   },
   {
     id: 4,
-    title: "Tech Startup Identity",
+    title: "Theatre Workshop Standee",
     category: "Graphic Design",
-    image: "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=600&h=400&fit=crop",
+    image: "https://res.cloudinary.com/duv8bi3tc/image/upload/v1764499486/standee_theatre_workshop_wr6gsg.jpg",
   },
 ];
 
